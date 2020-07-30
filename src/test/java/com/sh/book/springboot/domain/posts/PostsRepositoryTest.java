@@ -26,6 +26,7 @@ public class PostsRepositoryTest {
         postsRepository.deleteAll();
     }
 
+
     @Test
     public void take_posts() {
         //given
