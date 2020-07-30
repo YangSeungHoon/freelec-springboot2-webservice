@@ -1,8 +1,10 @@
 package com.sh.book.springboot.web.dto;
 
+import com.sh.book.springboot.domain.posts.Posts;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
 
 public class HelloResponseDtoTest {
 
@@ -19,4 +21,5 @@ public class HelloResponseDtoTest {
         assertThat(dto.getName()).isEqualTo(name);
         assertThat(dto.getAmount()).isEqualTo(amount);
     }
+
 }
