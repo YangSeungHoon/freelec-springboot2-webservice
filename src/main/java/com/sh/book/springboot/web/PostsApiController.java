@@ -1,13 +1,10 @@
 package com.sh.book.springboot.web;
 
-import com.sh.book.springboot.domain.posts.Posts;
-import com.sh.book.springboot.domain.posts.PostsRepository;
 import com.sh.book.springboot.service.posts.PostsService;
 import com.sh.book.springboot.web.dto.PostsResponseDto;
 import com.sh.book.springboot.web.dto.PostsSaveRequestDto;
 import com.sh.book.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
